@@ -1,0 +1,61 @@
+.jumbotron-fluid {
+    background-image: url("../Images/Group\ 5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customNav {
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+.customNav a {
+    color: white;
+    text-decoration: none;
+}
+.book {
+    background-image: url("../Images/book_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.make {
+    background-image: url("../Images/make_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plan {
+    background-image: url("../Images/plan_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.mailing {
+    background-image: url("../Images/goldenGate.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.footer {
+    background-color: black;
+    color: coral;
+}
